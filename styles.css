@@ -1,7 +1,8 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "NotoSans", sans-serif;
 }
 
 .container {
@@ -14,9 +15,10 @@ header .container{
 
     display: flex;
     justify-content: space-between;
-    background-color: rgb(148, 148, 155);
+    background-color:white;
     align-items: baseline;
-    
+    font-size: 18px;
+
 }
 
 header li {
@@ -24,23 +26,51 @@ header li {
     list-style-type: none;
     display: inline;
     margin-left: 20px;
-
+    
 
 }
 
 a{
 
     text-decoration: none;
-    
+    color:#6b7280;
+}
+
+a:hover{
+
+    color: #5A67D8;
 }
 
 .overview-hero .container{
 
-    background-color: coral;
     display: flex;
     padding: 40px 300px 40px 300px;
+    background-color: #E2E8F0;
 
+}
 
+.learn-about h2{
+
+    color: #48BB78;
+
+}
+
+.learn-about h3 {
+
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.stories h2,a{
+
+    color: #5A67D8;
+}
+
+.stories h3 {
+
+    font-size: 18px;
+
+    
 }
 
 .overview-hero .overview-hero-image img{
@@ -52,17 +82,26 @@ a{
 
 .overview-hero .overview-hero-text{
 
-    background-color: cornflowerblue;
-    justify-content: ;
 }
 
 .cards {
 
-    background-color: crimson;
     display: grid;
     grid-template-columns: 1fr 1fr  1fr;
 
 }
+
+.card {
+
+    border: solid;
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow:5px 2px 2px #888888;
+    margin-bottom: 10px;
+
+}
+
+
 
 img {
 
@@ -75,7 +114,6 @@ width: 50%
 .testing .container{
 
 
-    background-color: darkkhaki;
     display: flex;
     justify-content: space-between;
     background-color: rgb(148, 148, 155);
@@ -88,7 +126,6 @@ width: 50%
 .article-body{
 
     
-    background-color: darkseagreen;
     display: flex;
     flex-direction: column;
 }
@@ -105,12 +142,12 @@ width: 50%
 .newsletter .container{
 
 
-    background-color: darkkhaki;
+    background-color:#48BB78;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:darkturquoise;
     padding: 40px 300px 40px 300px;
 
 }
@@ -120,3 +157,16 @@ width: 50%
     float: left;
 }
 
+.btn {
+
+    background-color: #5A67D8;
+    
+}
+
+footer .container {
+
+    background-color:#4A5568;
+    color: white;
+    padding: 20px 300px 20px 300px;
+
+}

@@ -80,10 +80,6 @@ a:hover{
 }
 
 
-.overview-hero .overview-hero-text{
-
-}
-
 .cards {
 
     display: grid;
@@ -170,3 +166,4 @@ footer .container {
     padding: 20px 300px 20px 300px;
 
 }
+
